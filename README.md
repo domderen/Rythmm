@@ -1,6 +1,9 @@
 # Rythm
 
-> iOS media player that lets you feel the rythm.
+iOS media player that lets you feel the rythm :dancer:
+ 
+ ![App icon.](Rythmm/Assets.xcassets/AppIcon.appiconset/128.png)
+ 
 
 An iOS and Watch media player that provides haptic feedback for the music's rythm. Play a song from app's library, and both iOS & Watch applications can provide haptic feedback informing you of the first downbeat of a bar. It differenciates between an odd & even bars (the first & fifth beat) to help dancers find their way around the song.
 
