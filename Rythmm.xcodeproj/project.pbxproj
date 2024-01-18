@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1C49305C2B46CB5100CFDA96 /* RythmmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C49305B2B46CB5100CFDA96 /* RythmmApp.swift */; };
-		1C49305E2B46CB5100CFDA96 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C49305D2B46CB5100CFDA96 /* ContentView.swift */; };
+		1C49305E2B46CB5100CFDA96 /* PlaylistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C49305D2B46CB5100CFDA96 /* PlaylistsView.swift */; };
 		1C4930602B46CB5300CFDA96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C49305F2B46CB5300CFDA96 /* Assets.xcassets */; };
 		1C4930632B46CB5300CFDA96 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C4930622B46CB5300CFDA96 /* Preview Assets.xcassets */; };
 		1C49306D2B46CB5300CFDA96 /* RythmmTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C49306C2B46CB5300CFDA96 /* RythmmTests.swift */; };
@@ -22,6 +22,24 @@
 		1C4930952B46CB5500CFDA96 /* Rythmm_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4930942B46CB5500CFDA96 /* Rythmm_Watch_AppTests.swift */; };
 		1C49309F2B46CB5500CFDA96 /* Rythmm_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C49309E2B46CB5500CFDA96 /* Rythmm_Watch_AppUITests.swift */; };
 		1C4930A12B46CB5500CFDA96 /* Rythmm_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4930A02B46CB5500CFDA96 /* Rythmm_Watch_AppUITestsLaunchTests.swift */; };
+		1C4930B82B46D0FA00CFDA96 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4930B72B46D0FA00CFDA96 /* Player.swift */; };
+		1C4930BB2B46D1C400CFDA96 /* SongData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4930BA2B46D1C400CFDA96 /* SongData.swift */; };
+		1C4930C32B46D23B00CFDA96 /* Beat.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1C4930BE2B46D23B00CFDA96 /* Beat.ahap */; };
+		1C4930C62B46D23B00CFDA96 /* Downbeat.ahap in Resources */ = {isa = PBXBuildFile; fileRef = 1C4930C12B46D23B00CFDA96 /* Downbeat.ahap */; };
+		1C946E942B50364D0005BC6A /* DirectoryPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C946E932B50364D0005BC6A /* DirectoryPicker.swift */; };
+		1C946E972B51C7CB0005BC6A /* Playlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C946E962B51C7CB0005BC6A /* Playlist.swift */; };
+		1C946E992B51C8870005BC6A /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C946E982B51C8870005BC6A /* Song.swift */; };
+		1C946E9C2B51CD1B0005BC6A /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C946E9B2B51CD1B0005BC6A /* utils.swift */; };
+		1C946E9E2B51CD5F0005BC6A /* PlaylistStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C946E9D2B51CD5F0005BC6A /* PlaylistStore.swift */; };
+		1C946EA12B51D3BA0005BC6A /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C946EA02B51D3BA0005BC6A /* ErrorWrapper.swift */; };
+		1C946EA32B51D41E0005BC6A /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C946EA22B51D41E0005BC6A /* ErrorView.swift */; };
+		1C946EA52B51D4BA0005BC6A /* SongsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C946EA42B51D4BA0005BC6A /* SongsView.swift */; };
+		1C946EA72B51D4C80005BC6A /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C946EA62B51D4C80005BC6A /* PlayerView.swift */; };
+		1CA12EF62B4814D400B50030 /* WatchPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA12EF52B4814D400B50030 /* WatchPlayer.swift */; };
+		1CA12F2A2B484E0000B50030 /* SessionDelegator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA12F212B484E0000B50030 /* SessionDelegator.swift */; };
+		1CA12F2B2B484E0000B50030 /* SessionDelegator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA12F212B484E0000B50030 /* SessionDelegator.swift */; };
+		1CA12F342B4D84E000B50030 /* SongData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4930BA2B46D1C400CFDA96 /* SongData.swift */; };
+		1CA56A432B4DC2DC007D1414 /* ExtendedSessionDelegator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA56A422B4DC2DC007D1414 /* ExtendedSessionDelegator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +97,7 @@
 /* Begin PBXFileReference section */
 		1C4930582B46CB5100CFDA96 /* Rythmm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rythmm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C49305B2B46CB5100CFDA96 /* RythmmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RythmmApp.swift; sourceTree = "<group>"; };
-		1C49305D2B46CB5100CFDA96 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1C49305D2B46CB5100CFDA96 /* PlaylistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistsView.swift; sourceTree = "<group>"; };
 		1C49305F2B46CB5300CFDA96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C4930622B46CB5300CFDA96 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1C4930682B46CB5300CFDA96 /* RythmmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RythmmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +115,24 @@
 		1C49309A2B46CB5500CFDA96 /* Rythmm Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rythmm Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C49309E2B46CB5500CFDA96 /* Rythmm_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rythmm_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		1C4930A02B46CB5500CFDA96 /* Rythmm_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rythmm_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1C4930B72B46D0FA00CFDA96 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		1C4930B92B46D12600CFDA96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1C4930BA2B46D1C400CFDA96 /* SongData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongData.swift; sourceTree = "<group>"; };
+		1C4930BE2B46D23B00CFDA96 /* Beat.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Beat.ahap; sourceTree = "<group>"; };
+		1C4930C12B46D23B00CFDA96 /* Downbeat.ahap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Downbeat.ahap; sourceTree = "<group>"; };
+		1C946E932B50364D0005BC6A /* DirectoryPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryPicker.swift; sourceTree = "<group>"; };
+		1C946E962B51C7CB0005BC6A /* Playlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playlist.swift; sourceTree = "<group>"; };
+		1C946E982B51C8870005BC6A /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		1C946E9B2B51CD1B0005BC6A /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		1C946E9D2B51CD5F0005BC6A /* PlaylistStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaylistStore.swift; sourceTree = "<group>"; };
+		1C946EA02B51D3BA0005BC6A /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		1C946EA22B51D41E0005BC6A /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		1C946EA42B51D4BA0005BC6A /* SongsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsView.swift; sourceTree = "<group>"; };
+		1C946EA62B51D4C80005BC6A /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		1CA12EF52B4814D400B50030 /* WatchPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchPlayer.swift; sourceTree = "<group>"; };
+		1CA12EFA2B4840F200B50030 /* Rythmm-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Rythmm-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1CA12F212B484E0000B50030 /* SessionDelegator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDelegator.swift; sourceTree = "<group>"; };
+		1CA56A422B4DC2DC007D1414 /* ExtendedSessionDelegator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedSessionDelegator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +184,7 @@
 		1C49304F2B46CB5100CFDA96 = {
 			isa = PBXGroup;
 			children = (
+				1CA12F1E2B484DE100B50030 /* Shared */,
 				1C49305A2B46CB5100CFDA96 /* Rythmm */,
 				1C49306B2B46CB5300CFDA96 /* RythmmTests */,
 				1C4930752B46CB5300CFDA96 /* RythmmUITests */,
@@ -174,8 +211,13 @@
 		1C49305A2B46CB5100CFDA96 /* Rythmm */ = {
 			isa = PBXGroup;
 			children = (
+				1C946E9F2B51D1050005BC6A /* Views */,
+				1C946E9A2B51CD0F0005BC6A /* Utils */,
+				1C946E952B51C7B60005BC6A /* Models */,
+				1C4930BE2B46D23B00CFDA96 /* Beat.ahap */,
+				1C4930C12B46D23B00CFDA96 /* Downbeat.ahap */,
+				1C4930B92B46D12600CFDA96 /* Info.plist */,
 				1C49305B2B46CB5100CFDA96 /* RythmmApp.swift */,
-				1C49305D2B46CB5100CFDA96 /* ContentView.swift */,
 				1C49305F2B46CB5300CFDA96 /* Assets.xcassets */,
 				1C4930612B46CB5300CFDA96 /* Preview Content */,
 			);
@@ -210,10 +252,13 @@
 		1C4930822B46CB5300CFDA96 /* Rythmm Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				1CA12EFA2B4840F200B50030 /* Rythmm-Watch-App-Info.plist */,
 				1C4930832B46CB5300CFDA96 /* RythmmApp.swift */,
 				1C4930852B46CB5300CFDA96 /* ContentView.swift */,
 				1C4930872B46CB5500CFDA96 /* Assets.xcassets */,
 				1C4930892B46CB5500CFDA96 /* Preview Content */,
+				1CA12EF52B4814D400B50030 /* WatchPlayer.swift */,
+				1CA56A422B4DC2DC007D1414 /* ExtendedSessionDelegator.swift */,
 			);
 			path = "Rythmm Watch App";
 			sourceTree = "<group>";
@@ -241,6 +286,47 @@
 				1C4930A02B46CB5500CFDA96 /* Rythmm_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "Rythmm Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		1C946E952B51C7B60005BC6A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C4930B72B46D0FA00CFDA96 /* Player.swift */,
+				1C946E932B50364D0005BC6A /* DirectoryPicker.swift */,
+				1C946E962B51C7CB0005BC6A /* Playlist.swift */,
+				1C946E982B51C8870005BC6A /* Song.swift */,
+				1C946E9D2B51CD5F0005BC6A /* PlaylistStore.swift */,
+				1C946EA02B51D3BA0005BC6A /* ErrorWrapper.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C946E9A2B51CD0F0005BC6A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				1C946E9B2B51CD1B0005BC6A /* utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1C946E9F2B51D1050005BC6A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1C49305D2B46CB5100CFDA96 /* PlaylistsView.swift */,
+				1C946EA22B51D41E0005BC6A /* ErrorView.swift */,
+				1C946EA42B51D4BA0005BC6A /* SongsView.swift */,
+				1C946EA62B51D4C80005BC6A /* PlayerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1CA12F1E2B484DE100B50030 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				1CA12F212B484E0000B50030 /* SessionDelegator.swift */,
+				1C4930BA2B46D1C400CFDA96 /* SongData.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,7 +448,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
-				LastUpgradeCheck = 1510;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					1C4930572B46CB5100CFDA96 = {
 						CreatedOnToolsVersion = 15.1;
@@ -416,7 +502,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C4930C62B46D23B00CFDA96 /* Downbeat.ahap in Resources */,
 				1C4930632B46CB5300CFDA96 /* Preview Assets.xcassets in Resources */,
+				1C4930C32B46D23B00CFDA96 /* Beat.ahap in Resources */,
 				1C4930602B46CB5300CFDA96 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,7 +553,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C49305E2B46CB5100CFDA96 /* ContentView.swift in Sources */,
+				1C946E9C2B51CD1B0005BC6A /* utils.swift in Sources */,
+				1C946E992B51C8870005BC6A /* Song.swift in Sources */,
+				1C946EA12B51D3BA0005BC6A /* ErrorWrapper.swift in Sources */,
+				1C946EA72B51D4C80005BC6A /* PlayerView.swift in Sources */,
+				1C946EA52B51D4BA0005BC6A /* SongsView.swift in Sources */,
+				1C49305E2B46CB5100CFDA96 /* PlaylistsView.swift in Sources */,
+				1C946E972B51C7CB0005BC6A /* Playlist.swift in Sources */,
+				1C946EA32B51D41E0005BC6A /* ErrorView.swift in Sources */,
+				1C946E942B50364D0005BC6A /* DirectoryPicker.swift in Sources */,
+				1C4930B82B46D0FA00CFDA96 /* Player.swift in Sources */,
+				1CA12F2A2B484E0000B50030 /* SessionDelegator.swift in Sources */,
+				1C4930BB2B46D1C400CFDA96 /* SongData.swift in Sources */,
+				1C946E9E2B51CD5F0005BC6A /* PlaylistStore.swift in Sources */,
 				1C49305C2B46CB5100CFDA96 /* RythmmApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,8 +591,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CA12F342B4D84E000B50030 /* SongData.swift in Sources */,
 				1C4930862B46CB5300CFDA96 /* ContentView.swift in Sources */,
+				1CA56A432B4DC2DC007D1414 /* ExtendedSessionDelegator.swift in Sources */,
+				1CA12F2B2B484E0000B50030 /* SessionDelegator.swift in Sources */,
 				1C4930842B46CB5300CFDA96 /* RythmmApp.swift in Sources */,
+				1CA12EF62B4814D400B50030 /* WatchPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,6 +682,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -596,12 +701,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
 			};
 			name = Debug;
 		};
@@ -639,6 +746,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -651,10 +759,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				WATCHOS_DEPLOYMENT_TARGET = 10.2;
 			};
 			name = Release;
 		};
@@ -669,6 +779,7 @@
 				DEVELOPMENT_TEAM = F4Z7AD8U23;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rythmm-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Rythmm;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = co.hotdata.Rythmm;
@@ -699,6 +810,7 @@
 				DEVELOPMENT_TEAM = F4Z7AD8U23;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rythmm-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = Rythmm;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = co.hotdata.Rythmm;
@@ -731,6 +843,7 @@
 				DEVELOPMENT_TEAM = F4Z7AD8U23;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rythmm/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Rythmm;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -764,6 +877,7 @@
 				DEVELOPMENT_TEAM = F4Z7AD8U23;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rythmm/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Rythmm;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

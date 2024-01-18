@@ -8,17 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var player: WatchPlayer
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: player.topIcon)
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text(player.message)
+                .lineLimit(1)
+                .truncationMode(/*@START_MENU_TOKEN@*/.tail/*@END_MENU_TOKEN@*/)
+            if player.extendedSessionDelegator.extendedSession.state == .running {
+                Image(systemName: "figure.socialdance")
+            } else {
+                Image(systemName: "person.slash")
+            }
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    ContentView(player: WatchPlayer(sessionDelegator: SessionDelegator(), extendedSessionDelegator: ExtendedSessionDelegator()))
 }
