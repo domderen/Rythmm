@@ -39,6 +39,8 @@
 		1CA12F2B2B484E0000B50030 /* SessionDelegator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA12F212B484E0000B50030 /* SessionDelegator.swift */; };
 		1CA12F342B4D84E000B50030 /* SongData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4930BA2B46D1C400CFDA96 /* SongData.swift */; };
 		1CA56A432B4DC2DC007D1414 /* ExtendedSessionDelegator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CA56A422B4DC2DC007D1414 /* ExtendedSessionDelegator.swift */; };
+		1CC1AD7F2B5969D800B8186D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1CC1AD7E2B5969D800B8186D /* README.md */; };
+		1CC1AD802B5969D800B8186D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1CC1AD7E2B5969D800B8186D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -131,6 +133,7 @@
 		1CA12EFA2B4840F200B50030 /* Rythmm-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Rythmm-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 		1CA12F212B484E0000B50030 /* SessionDelegator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionDelegator.swift; sourceTree = "<group>"; };
 		1CA56A422B4DC2DC007D1414 /* ExtendedSessionDelegator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedSessionDelegator.swift; sourceTree = "<group>"; };
+		1CC1AD7E2B5969D800B8186D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +185,7 @@
 		1C49304F2B46CB5100CFDA96 = {
 			isa = PBXGroup;
 			children = (
+				1CC1AD7E2B5969D800B8186D /* README.md */,
 				1CA12F1E2B484DE100B50030 /* Shared */,
 				1C49305A2B46CB5100CFDA96 /* Rythmm */,
 				1C49306B2B46CB5300CFDA96 /* RythmmTests */,
@@ -501,6 +505,7 @@
 			files = (
 				1C4930C62B46D23B00CFDA96 /* Downbeat.ahap in Resources */,
 				1C4930632B46CB5300CFDA96 /* Preview Assets.xcassets in Resources */,
+				1CC1AD7F2B5969D800B8186D /* README.md in Resources */,
 				1C4930C32B46D23B00CFDA96 /* Beat.ahap in Resources */,
 				1C4930602B46CB5300CFDA96 /* Assets.xcassets in Resources */,
 			);
@@ -524,6 +529,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CC1AD802B5969D800B8186D /* README.md in Resources */,
 				1C49308B2B46CB5500CFDA96 /* Preview Assets.xcassets in Resources */,
 				1C4930882B46CB5500CFDA96 /* Assets.xcassets in Resources */,
 			);
